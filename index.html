@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+   
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="./images/Vivek.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#softwares">Software Skills</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>MERN Full Stack Developer</p>
+                <h1>Hi, I'm <span>Vivek </span>Periannan <br>From India</h1>
+            </div>
+        </div>
+    </div>
+    <!-- ---------about--------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/Edited.JPG">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About ME</h1>
+                    <p>To have a growth oriented and challenging career, where I can contribute my knowledge
+                        and skills to the organization and enhance my experience through continuous learning and team
+                        work. . I pride myself for my ability and willingness to work hard in creating a cordial working
+                        atmosphere and contributing overall organization development</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>MERN Full Stack development</span><br>Full Stack development</li>
+                            <li><span>Web Development</span><br>Developing a Good looking and a responsive websites</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+
+                            <li><span>Since 2017</span><br>System Administrator & IT support at International school
+                                Abudhabi.</li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2022</span><br>MERN Full Stack development at GUVI GEEEk Networks-Chennai.</li>
+                            <li><span>2013-17</span><br>B.E(Automobile)from TamilNadu College Of
+                                Engineering,Coimbatore.<br><b>Completed With </b> <span>7.6 CGPA</span></li>
+                            <li><span>2013</span><br>HSC from Gsr Maticulation School,Coimbatore.<br><b>Completed With
+                                </b> <span>88%</span></li>
+                            <li><span>2013</span><br>SSLC from Gsr Maticulation School,Coimbatore<br><b> Completed With
+                                </b> <span>90%</span></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- --------------------Services------------------ -->
+    <div id="softwares">
+        <div class="container">
+            <h1 class="sub-title">Software Skills</h1>
+            <div class="skills-list">
+
+                <img src="./images/html-svgrepo-com.svg" alt="HTML 5" width="250px" height="250px">
+                <img src="./images/css-svgrepo-com.svg" alt="CSS" width="250px" height="250px">
+                <img src="./images/js-svgrepo-com.svg" alt="Java Script" width="250px" height="250px">
+                <img src="./images/react-svgrepo-com.svg" alt="REACT" width="250px" height="250px"
+                    style="margin-left:25px">
+                <img src="./images/nodejs-1-logo-svgrepo-com.svg" alt="Node JS" width="250px" height="250px">
+                <img src="./images/mysql-logo-svgrepo-com.svg" alt="MY SQL" width="250px" height="250px">
+                <img src="./images/mongodb-ar21.svg" alt="MangoDb" width="250px" height="250px">
+                <img src="./images/getbootstrap-icon.svg" alt="Bootstrap" width="180px" height="180px">
+                <img src="./images/github-svgrepo-com.svg" alt="GitHub" width="200px" height="180px"
+                    style="margin:25px 25px  ">
+
+
+            </div>
+        </div>
+        <!-- ------------------portfolio or projects----------
+
+//I will add my projects details later!!!!!!!!!!!!!!
+------------------End of portfolios or projects----- -->
+
+
+        <!-- ---------------contacts------------ -->
+
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fas fa-paper-plane"></i>vivekperiannan2696@gmail.com</p>
+                        <p><i class="fas fa-phone-square-alt"></i>+91-9629193970</p>
+                        <div class="social-icons">
+                            <a href=""><i class="fab fa-facebook"></i></a>
+                            <a href=""><i class="fab fa-linkedin"></i></a>
+                            <a href=""><i class="fab fa-instagram"></i></a>
+
+                        </div>
+                        <a href="images/CURRICULUM  VITAE  OF VIVEK .pdf" class="btn btn2" download>Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button class="btn btn2" type="submit">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <script>
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+
+            function opentab(tabname) {
+                for (tablink of tablinks) {
+                    tablink.classList.remove("active-link");
+                }
+                for (tabcontent of tabcontents) {
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab")
+            }
+        </script>
+        <script>
+            var sidemenu = document.getElementById("sidemenu");
+
+            function openmenu() {
+                sidemenu.style.right = "0";
+            }
+
+            function closemenu() {
+                sidemenu.style.right = "-200px";
+            }
+        </script>
+        <script>
+            const scriptURL =
+                'https://script.google.com/macros/s/AKfycbwGUHAkkWWX6I7ebwi07JkBbhQ6UHgCvgMXVFvClZHsfxk1v5D0_pjZG-AmLyQcvORvUQ/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const msg = document.getElementById('msg')
+            form.addEventListener('submit', e => {
+                e.preventDefault()
+                fetch(scriptURL, {
+                        method: 'POST',
+                        body: new FormData(form)
+                    })
+                    .then(response => {
+                        msg.innerHTML = "Message sent successfully"
+                        setTimeout(function () {
+                            msg.innerHTML = ""
+                        }, 3000)
+                        form.reset()
+                    })
+                    .catch(error => console.error('Error!', error.message))
+            })
+        </script>
+</body>
+
+</html>
